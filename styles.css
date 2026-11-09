@@ -5,8 +5,8 @@
   --moss: #476b4e;
   --lime: #d7f06a;
   --line: rgba(24, 33, 25, .18);
-  --serif: "Instrument Serif", Georgia, serif;
-  --sans: "DM Sans", system-ui, sans-serif;
+  --serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
