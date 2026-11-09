@@ -5,7 +5,6 @@
   --moss: #476b4e;
   --lime: #d7f06a;
   --line: rgba(24, 33, 25, .18);
-  --serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -17,7 +16,7 @@ a { color: inherit; }
 .skip-link:focus { top: 1rem; }
 
 .site-header { height: 88px; max-width: 1440px; margin: 0 auto; padding: 0 4vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.wordmark { font-family: var(--serif); font-size: 2rem; text-decoration: none; letter-spacing: -.04em; }
+.wordmark { font-family: var(--sans); font-size: 2rem; text-decoration: none; letter-spacing: -.04em; }
 .wordmark span { color: var(--moss); }
 nav { display: flex; gap: clamp(1.25rem, 3vw, 3rem); }
 nav a { text-decoration: none; font-size: .9rem; font-weight: 500; letter-spacing: .015em; }
@@ -59,7 +58,7 @@ h2 { font-family: var(--sans); font-size: clamp(2.85rem, 5.5vw, 5.8rem); line-he
 .section-heading > p { max-width: 430px; margin-bottom: .4rem; }
 .research-list { border-top: 1px solid var(--line); }
 .research-item { display: grid; grid-template-columns: 70px 1fr 160px; gap: 2rem; padding: 2.2rem 0; border-bottom: 1px solid var(--line); align-items: start; }
-.research-index { font-family: var(--serif); font-size: 1.4rem; }
+.research-index { font-family: var(--sans); font-size: 1.4rem; }
 .research-item h3 { font-family: var(--sans); font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.14; font-weight: 500; margin-bottom: .75rem; }
 .research-item p { max-width: 720px; margin-bottom: 0; }
 .research-tag { justify-self: end; border: 1px solid var(--line); border-radius: 999px; padding: .35rem .7rem; font-size: .72rem; }
@@ -76,7 +75,7 @@ h2 { font-family: var(--sans); font-size: clamp(2.85rem, 5.5vw, 5.8rem); line-he
 .publications-heading .text-link { justify-self: end; }
 .publication-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
 .publication-list li { display: grid; grid-template-columns: 90px 1fr 40px; gap: 1.5rem; padding: 1.8rem 0; border-bottom: 1px solid var(--line); align-items: start; }
-.pub-year { font-family: var(--serif); font-size: 1.2rem; }
+.pub-year { font-family: var(--sans); font-size: 1.2rem; }
 .publication-list p { font-family: var(--sans); font-size: clamp(1.3rem, 2.1vw, 1.85rem); line-height: 1.34; font-weight: 500; margin-bottom: .65rem; }
 .publication-list div span { color: #59615a; font-size: .84rem; }
 .publication-list li > a { text-decoration: none; font-size: 1.3rem; justify-self: end; }
